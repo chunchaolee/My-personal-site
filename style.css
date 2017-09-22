@@ -1,0 +1,256 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+#nav {
+  /*border: 1px solid red;*/
+  width: 100%;
+  background-color: #ff6600;
+  
+  text-align: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100; /*定義深度 避免重疊*/
+}
+
+#content {
+  /*border: 1px solid blue; */
+  position: relative;
+  top:76px;
+  padding:15px;
+}
+
+.container {
+  /*border: 1px solid #ccc;*/
+  width: 800px;
+  margin: 0 auto;
+}
+
+#aboutme, #mywork, #contactme {
+  width: 80%;
+  /*border: 1px solid yellow;*/
+  margin: 0px auto;
+
+}
+
+#content > .container > div {
+  padding: 76px 0;
+}
+
+.menu li {
+  display: inline-block;
+
+  width: 20%;
+  padding: 10px 5px;
+  
+  border: 1px solid #fff;
+  border-radius: 18px; /* Border corner 出現圓角*/
+
+  list-style-type: none; /* 去除list符號 */
+  text-align: center;
+  background-color: #ff6600;
+  color: #fff;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {  /* hover 指標移過元素時觸發的屬性*/
+  border: 1px solid #ff6600;
+  background-color: gold;
+}
+
+li:hover a {
+  color: #ff6600;
+  font-weight: 800; /* 字型加重 */
+}
+/* About me*/
+#my-avatar {
+  border: 1px solid white;
+  margin: 10px;
+  float: left;
+}
+
+#my-avatar img {
+  width: 140px;
+}
+
+/* My Info */
+
+h1 {
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+h4 {
+  padding-left: 10px;
+  margin: 0;
+}
+
+table {
+  font-size: 14px;
+  text-align: left;
+}
+
+th, td {
+  vertical-align: top;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  color: #666;
+  padding-left: 20px;
+}
+
+hr {
+  border: 0.5 solid #eee;
+}
+
+/*My Work*/
+
+#mywork h1 {
+  text-align: center;
+}
+
+#my-work-gallery {
+  text-align: center;
+}
+
+.item {
+  position: relative;
+  max-width: 30%;
+  display: inline-block;
+  margin: 10px auto;
+
+}
+
+.item img {
+  width: 100%;
+  height: 100%
+}
+
+.item-info {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+  padding: 0 5px;
+
+  /*border: 1px solid red;*/
+  background-color: rgba(255,255,255,.8);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+}
+
+.item-info h3 {
+  padding: 6px 0;
+  margin: 0 auto;
+}
+
+.item-info p {
+  padding: 2px;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+.item-info:hover {
+  opacity: 0.8;
+}
+
+/* Contact me*/
+
+#contactme {
+  /*border: 1px solid green;*/
+}
+
+#contactme h1{
+  text-align: center;
+}
+
+.contact-form {
+  /*border: 1px solid blue;*/
+  width: 70%;
+  margin: 5px auto;
+}
+
+.form-row{
+  /*border: 1px solid purple;*/
+  margin: 10px 5px;
+  text-align: center;
+}
+
+
+.form-row input, .form-row textarea {
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  padding: 7px;
+}
+
+.form-row textarea {
+  resize: nono;
+  height: 8em;
+}
+
+.form-row button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  margin: 0 30px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form-row button[type="submit"],  .form-row button[type="reset"] {
+  background-color: #ff6600;
+  color: #FFFFFF;
+}
+
+.form-row button:hover {
+  background-color: gold;
+  color: #ff6600;
+  font-weight: 900;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
+
+hr.bar {
+  border: 2px dotted #ff6600;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
