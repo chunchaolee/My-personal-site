@@ -316,6 +316,10 @@ hr.bar {
     width: 80%;
   }
 
+  .item-info:active {
+    opacity: 0.8;
+  }
+
 
 }
 
